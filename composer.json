@@ -1,4 +1,7 @@
 {
+    "repositories": [
+        { "type":  "vcs", "url":  "https://github.com/promsters/FOSElasticaBundle"}
+    ],
     "name": "enqueue/elastica-bundle",
     "type": "symfony-bundle",
     "description": "The bundle adds extra features to FOSElasticaBundle bundle",
@@ -7,7 +10,7 @@
     "require": {
         "php": "^7.1",
         "symfony/framework-bundle": "^3.4|^4",
-        "friendsofsymfony/elastica-bundle": "^5",
+        "friendsofsymfony/elastica-bundle": "dev-elastic7",
         "enqueue/enqueue-bundle": "^0.9"
     },
     "autoload": {
